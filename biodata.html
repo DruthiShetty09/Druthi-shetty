@@ -23,6 +23,18 @@
       margin-bottom: 20px;
       color: #005f73;
     }
+    .photo-container {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .photo-container img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0a9396;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
     .bio-label {
       font-weight: bold;
       margin-top: 15px;
@@ -41,6 +53,19 @@
       list-style-type: square;
       padding-left: 20px;
     }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #888;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #e0f2f1;
+    }
   </style>
 </head>
 <body>
@@ -56,13 +81,19 @@
   <div class="bio-container">
     <h2 class="bio-heading">My Bio-Data</h2>
 
+    <!-- Picture section -->
+    <div class="photo-container">
+      <img src="your-photo.jpg" alt="Druthi Shetty's Photo">
+      <!-- Replace 'your-photo.jpg' with your actual image filename -->
+    </div>
+
     <p><span class="bio-label">Name:</span><span class="bio-value">Druthi Shetty</span></p>
     <p><span class="bio-label">Date of Birth:</span><span class="bio-value">October 9, 2004</span></p>
     <p><span class="bio-label">Gender:</span><span class="bio-value">Female</span></p>
     <p><span class="bio-label">Nationality:</span><span class="bio-value">Indian</span></p>
     <p><span class="bio-label">Marital Status:</span><span class="bio-value">Single</span></p>
-    <p><span class="bio-label">Languages Known:</span><span class="bio-value">English, Hindi, Tulu,Kannada</span></p>
-    <p><span class="bio-label">Address:</span><span class="bio-value">Hosur,Sakleshpur taluk,Hassan district,Karnataka, India</span></p>
+    <p><span class="bio-label">Languages Known:</span><span class="bio-value">English, Hindi, Tulu, Kannada</span></p>
+    <p><span class="bio-label">Address:</span><span class="bio-value">Hosur, Sakleshpur Taluk, Hassan District, Karnataka, India</span></p>
     <p><span class="bio-label">Contact Number:</span><span class="bio-value">7619336755</span></p>
     <p><span class="bio-label">Email:</span><span class="bio-value">shettydruhti09@gmail.com</span></p>
 
@@ -80,17 +111,17 @@
         <tr>
           <td>2023 - 2027</td>
           <td>B.E Computer Science</td>
-          <td>AJ Institue Of Engineering And Technology</td>
+          <td>AJ Institute Of Engineering And Technology</td>
           <td>8.0 CGPA</td>
         </tr>
         <tr>
           <td>2021 - 2022</td>
           <td>Senior Secondary (12th)</td>
-          <td>Vikaas pre-university</td>
+          <td>Vikaas Pre-University</td>
           <td>87%</td>
         </tr>
         <tr>
-          <td>2019- 2020</td>
+          <td>2019 - 2020</td>
           <td>Secondary (10th)</td>
           <td>Sacred Heart English Medium School</td>
           <td>86%</td>
@@ -111,7 +142,7 @@
   </div>
 
   <footer>
-    <p style="text-align: center; margin-top: 40px;">&copy; 2025 Druthi Shetty- All Rights Reserved</p>
+    <p style="text-align: center; margin-top: 40px;">&copy; 2025 Druthi Shetty - All Rights Reserved</p>
   </footer>
 </body>
 </html>
